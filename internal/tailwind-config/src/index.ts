@@ -9,8 +9,6 @@ import animate from 'tailwindcss-animate';
 
 import { enterAnimationPlugin } from './plugins/entry';
 
-// import defaultTheme from 'tailwindcss/defaultTheme';
-
 const { packages } = getPackagesSync(process.cwd());
 
 const tailwindPackages: string[] = [];
